@@ -1,0 +1,17 @@
+---
+layout: page
+title: Search
+description: Search this page using the keyboard shortcut of ctrl+f to use your browser to search for a post.
+---
+<p>{{ page.description }}</p>
+<!-- Search list -->
+<ul id="search">
+	{% for post in site.posts %}
+
+	  <li class="post search">
+	  	<time datetime="{{ post.date | date_to_xmlschema }}"> <i>{{ post.date | date_to_string }}</i> </time> <a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a>
+	  </li>
+
+    {% endfor %}
+
+</ul>

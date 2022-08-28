@@ -1,0 +1,15 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+
+audio { width: 100%; }
+#search li { list-style: none; }
+.post.search:before { margin: 0 auto; height: 0; }
+
+a {
+	text-decoration: underline;
+}
+
+#posts h2 a {
+	text-decoration: none;
+}

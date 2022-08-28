@@ -1,0 +1,54 @@
+# Site settings
+title: MichaelGrace.org
+description: "Geek blog"
+url: "http://geek.michaelgrace.org"
+author:
+  name: "Michael Grace"
+  url: "https://geek.michaelgrace.org"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title:output_ext
+paginate: 30
+paginate_path: /page:num/
+sass:
+  style: compressed
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+exclude:
+ - update-site
+
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: true
+  startings: []
