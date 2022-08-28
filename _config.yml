@@ -9,8 +9,8 @@ author:
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-source: /
-#destination: ./
+source: ../
+destination: ./
 permalink: /:title:output_ext
 paginate: 30
 paginate_path: /page:num/
