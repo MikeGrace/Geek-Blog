@@ -129,7 +129,7 @@ If the script doesn't run as expected, follow these steps:
    ```bash
    sudo udevadm monitor --environment --udev
    ```
-
+   
    Note that when you run this and first connect your Garmin to USB, you will see a flury of activity from this monitor but your script will not yet be triggered. It isn't until the USB drive is mounted that it should be triggered. So just be patient. If you don't see it mounted in the files like a external drive, then it shouldn't be triggered yet.
 
 3. **Check System Logs:**
@@ -138,5 +138,3 @@ If the script doesn't run as expected, follow these steps:
    ```bash
    journalctl -xe | grep udev
    ```
-
-
