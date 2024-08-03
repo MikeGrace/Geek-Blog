@@ -21,28 +21,6 @@ To make the most out of your metrics collection, consider these steps:
 
 ![Flowchart showing steps towards actionable data generated using mermaid.js](/assets/2024/08/2024-08-03-steps-towards-actionable-data.png)
 
-```mermaid
-flowchart TB
-    A[Desire for Improvement]
-    B[Identify Questions]
-    C[Identify Actions]
-    D[Assess Value]
-    E[Cost-Benefit Analysis]
-    F[Plan Data Collection]
-    G[Collect Data]
-    H[Analyze Data]
-    I[Take Action]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-```
-
 1. **Desire for Improvement:** Recognize the need or desire to make a decision to improve something.
 2. **Identify Questions:** Determine the specific questions that, if answered, would enable a good and informed decision.
 3. **Identify Actions:** Define the potential actions that would be taken based on the answers to these questions.
@@ -53,7 +31,7 @@ flowchart TB
 8. **Analyze Data:** Format and interpret the data to specifically address the identified questions.
 9. **Take Action:** Based on the insights gained from the data, take informed actions and aim to realize the value of these data-informed decisions.
 
-As you can see in the flowchart[^1], the metrics collection step is just one step of many on the journey to actionable insights.
+As you can see the metrics collection step is just one step of many on the journey to actionable insights.
 
 ## Beyond the Basics: Expanding Your Metrics Approach
 
@@ -81,7 +59,7 @@ Happy questioning and may your insights always be actionable!
 
 ## Footnotes
 
-[^1]: Here is the Mermaid flowchart code used to create the flowchart:
+Here is the Mermaid flowchart code used to create the flowchart:
 
 ```mermaid
 flowchart TB
