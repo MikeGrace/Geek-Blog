@@ -55,6 +55,8 @@ This post touches just the surface of metrics. There are lots of other angles an
 
 9. **Be Willing to Adapt:** Don't be afraid to revise and refine your metrics as your business grows and changes.
 
+10. **Alerting:** Maybe instead of having a review cadence, you know you need to take action once a specified threshold has been met.  
+
 Happy questioning and may your insights always be actionable!
 
 ## Footnotes
