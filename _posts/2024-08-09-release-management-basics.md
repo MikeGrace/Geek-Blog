@@ -11,27 +11,19 @@ Good release management is balancing system integrity with getting new features 
 
 System integrity is Non-Negotiable. Compromises in system integrity:
 
-- Risks revenue
-  
+- Risks revenue  
 - Degrades the customer experience
-  
 - Wastes engineering time
-  
 - Breaks momentum
   
-
 ## Testing
 
 Testing attempts to ensure that changes are working as expected without negative side effects.
 
 - Unit Testing: Does our local code change do what we think it should?
-  
 - Integration Testing: Are components working together?
-  
 - End-to-End Testing: Does the system work as a whole?
-  
 - Regression Testing: Are we breaking existing functionality?
-  
 
 ## Monitoring and Alerting
 
@@ -76,14 +68,12 @@ This is usually the very first thing that anyone will see. It should be a single
 **Prompts to help distill information**
 
 - What is changing?
-  
 - What part of the system is changing?
   
 
 **Source inputs**
 
-- Code change
-  
+- Code change 
 
 Anyone reading this short description should be able to determine if this is something they can ignore or if they need to spend the time to dig into the details. It's wild to think that hundreds or thousands of hours are being distilled down into a dozen or so words.
 
@@ -94,13 +84,9 @@ Expanding on the title, the description can give more details on what is changin
 **Prompts to help distill information**
 
 - What details are business leaders and team members going to need to know to understand what is changing?
-  
 - Where in the system is the change being made?
-  
 - What user experience does this impact?
-  
 - Can you explain this in layman's terms?
-  
 
 **Source inputs**
 
@@ -115,26 +101,17 @@ This lets everyone know why the change is being done. That might be business lea
 **Prompts to help distill information**
 
 - What value comes from deploying this change?
-  
 - What is the impact if we don't deploy?
-  
 - Why is the change needed?
-  
 - How does this change get us closer to a business goal?
-  
 
 **Source inputs**
 
 - Business goals
-  
 - Product priorities
-  
 - Sprint goals
-  
 - Code change
-  
 - User journey
-  
 
 The exciting aspect of justification is that it ties together business goals, engineering work, and customer experience into a single field. Are your engineers able to easily identify how this change will help reach the business goals? If yes, congratulations! You have clear business goals. The goals have been communicated through the company, surviving the game of telephone. Now the engineers are able to see how their work directly contributes to the business and communicate that out clearly. If not, are we trying to deploy something that is a distraction and isn't what the business wants to be focused on? Is it the right thing but we don't have clear business goals set or well communicated?
 
@@ -143,7 +120,6 @@ The exciting aspect of justification is that it ties together business goals, en
 **Prompts to help distill information**
 
 - What are all of the steps or actions that need to be taken to deploy successfully?
-  
 - How would you document the steps for a new hire?
   
 
@@ -190,19 +166,12 @@ The holy grail is having a system configured in a way that production changes ar
 Other fields that are usually found on a change ticket.
 
 - Change ID: a way to reference this particular change.
-  
 - Risk level: qualitative and/or quantitative measure of how risky this change is.
-  
 - Validator: who is responsible for validating the deployment.
-  
 - Assignee: who is responsible for carrying out the deployment.
-  
 - Schedule: target start and end date and times.
-  
 - State: reviewed, approved, deploying, validating, closed, etc.
-  
 - Notes: place to capture notes relevant to deployment effort.
-  
 
 ## Conclusion
 
