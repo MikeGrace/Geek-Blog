@@ -45,6 +45,8 @@ Feature Toggles: Code changes get deployed but the feature is turned off for use
 
 Regular Backups: If you don't have backups of your data and systems that you can restore from, you aren't being serious.
 
+![stop it, get some help animated gif](assets/2024/08/2024-08-09-stop-it-get-some-help-small.gif)
+
 Disaster Recovery: Do you have a plan for recovering from a worst-case scenario? The more dependencies you have on other systems and code bases, the more you should be investing in a disaster recovery plan. [https://dependencystrike.com/](https://dependencystrike.com/)
 
 Rollback Procedures: If something goes wrong, how do we undo the deployment?
