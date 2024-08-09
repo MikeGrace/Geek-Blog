@@ -1,12 +1,9 @@
-```yaml
+---
 title: "Release Management Basics"
-
 layout: post
-
 categories:
-
-- SDLC
-```
+  - SDLC
+---
 
 Good release management is balancing system integrity with getting new features and fixes to customers at speed. Good release management is also agile, adjusting as your teams and system change. How can you make sure that your features are getting to production as quickly as possible with the least amount of friction and risk as possible? How do you know when you are maintaining a healthy balance? Use this high-level guide help identify where your teams may have opportunities to improve.
 
